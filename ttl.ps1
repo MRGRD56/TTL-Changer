@@ -33,7 +33,7 @@ switch ($args[0]) {
     }
     "-h"
     {
-        Write-Host "PowerShell script for change TTL value by MRGRD56" -BackgroundColor Yellow
+        Write-Host "PowerShell script for change TTL value by MRGRD56" -ForegroundColor Yellow
         Write-Host "[-s <val>] - set TTL value to val"
         Write-Host "[-c] - check current TTL value"
         Write-Host "[-a <sec=5>] - set TTL to 64, wait (sec) seconds and set TTL to 65"
